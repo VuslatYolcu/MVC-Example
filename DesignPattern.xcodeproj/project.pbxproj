@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1133BA4429E042E30093404E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1133BA4329E042E30093404E /* User.swift */; };
+		1133BA4629E045C20093404E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1133BA4529E045C20093404E /* NetworkService.swift */; };
 		1296C1DF2764177600CC9685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1296C1DE2764177600CC9685 /* AppDelegate.swift */; };
 		1296C1E12764177600CC9685 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1296C1E02764177600CC9685 /* SceneDelegate.swift */; };
 		1296C1E62764177600CC9685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1296C1E42764177600CC9685 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1133BA4329E042E30093404E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1133BA4529E045C20093404E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		1296C1DB2764177600CC9685 /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1296C1DE2764177600CC9685 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1296C1E02764177600CC9685 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				1296C1E72764177800CC9685 /* Assets.xcassets */,
 				1296C1E92764177800CC9685 /* LaunchScreen.storyboard */,
 				1296C1EC2764177800CC9685 /* Info.plist */,
+				1133BA4329E042E30093404E /* User.swift */,
+				1133BA4529E045C20093404E /* NetworkService.swift */,
 			);
 			path = DesignPattern;
 			sourceTree = "<group>";
@@ -144,6 +150,8 @@
 				1296C1F32764188C00CC9685 /* LoginViewController.swift in Sources */,
 				1296C1DF2764177600CC9685 /* AppDelegate.swift in Sources */,
 				1296C1E12764177600CC9685 /* SceneDelegate.swift in Sources */,
+				1133BA4429E042E30093404E /* User.swift in Sources */,
+				1133BA4629E045C20093404E /* NetworkService.swift in Sources */,
 				1296C1F52764196700CC9685 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

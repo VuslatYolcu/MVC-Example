@@ -10,13 +10,18 @@ import UIKit
 class HomeViewController: UIViewController {
 
     @IBOutlet weak var welcomeLbl: UILabel!
+    var user: User!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        user = NetworkService.shared.getLoggedInUser()
+        populateUserName()
     }
     
+    private func populateUserName() {
+        welcomeLbl.text = "Hello, \(user.firstName) \(user.lastName)"
+    }
 
     /*
     // MARK: - Navigation
